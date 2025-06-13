@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Kolokwium2.Services;
 
-public class EventService
+public class EventService : IEventService
 {
     private readonly EventsDbContext _context;
 

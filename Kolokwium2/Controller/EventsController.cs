@@ -20,7 +20,7 @@ public class EventsController:ControllerBase
     {
         try
         {
-            var events = await _eventService.getAllEventsDetailsAsync();
+            var events = await _eventService.GetAllEventsDetailsAsync();
             return Ok(events);
         }
         catch (Exception ex)
